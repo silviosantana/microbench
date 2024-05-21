@@ -11012,8 +11012,8 @@ int loop(int zero) {
 
 int main(int argc, char* argv[]) {
    argc&=10000;
-   ROI_BEGIN(); 
+  //  ROI_BEGIN(); 
    int t=loop(argc); 
-   ROI_END();
+  //  ROI_END();
    volatile int a = t;
 }

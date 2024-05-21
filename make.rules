@@ -26,7 +26,7 @@ bench: bench.c pre_req
 	${CC} ${CFLAGS} bench.c --static --std=c99  -lm -o bench
 
 clean:
-	rm -f bench
+	rm -f bench bench.riscv bench.dump
 
 .phony : clean all
 

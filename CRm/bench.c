@@ -74,8 +74,8 @@ void mergeSort(int numbers[], int temp[], int array_size)
  
 int main(int argc, char* argv[]) {
    argc&=10000;
-   ROI_BEGIN(); 
+  //  ROI_BEGIN(); 
    mergeSort(randArr,temp,ASIZE);
-   ROI_END();
+  //  ROI_END();
    volatile int a = temp[argc];
 }

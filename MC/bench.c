@@ -41,8 +41,8 @@ int main(int argc, char* argv[]) {
    //loop1(argc);
    //loop2(argc);
 
-   ROI_BEGIN(); 
+  //  ROI_BEGIN(); 
    float f =loop3(argc);
-   ROI_END();
+  //  ROI_END();
    volatile float a = f;
 }

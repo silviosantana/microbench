@@ -47,9 +47,9 @@ int main(int argc, char* argv[]) {
    cur->val=100;
    cur->_next=NULL;
 
-   ROI_BEGIN(); 
+  //  ROI_BEGIN(); 
    int t=loop(argc,n);
-   ROI_END();
+  //  ROI_END();
 
    volatile int a = t;
 }
